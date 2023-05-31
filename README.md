@@ -50,15 +50,4 @@ Run the eslint and check the issues.
 
 Code formatting by using the prettier.
 
-## Learn More resources for unit test
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-https://www.npmjs.com/package/jest
-
-https://www.npmjs.com/package/enzyme
-
-https://www.npmjs.com/package/enzyme-adapter-react-17
 
