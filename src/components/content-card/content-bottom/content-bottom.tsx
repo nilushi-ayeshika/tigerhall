@@ -26,7 +26,7 @@ const ContentBottom: FC<IContentBottom> = ({ content }) => {
       <Heading as="h1" size="md" color="black" mb="8px" textTransform="capitalize">
         {name}
       </Heading>
-      <TextBlock fontSize="12px" color="gray.800" fontWeight={500}>
+      <TextBlock fontSize="12px" color="gray.800" fontWeight={500} lineHeight="12px">
         {firstName} {lastName}
       </TextBlock>
       <TextBlock fontSize="12px" fontWeight="700">
