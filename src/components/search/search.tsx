@@ -8,7 +8,7 @@ export interface ISearchData {
 
 const Search: FC<ISearchData> = ({ onSearchData }) => {
   const handleSearchData = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    
+    onSearchData(e.target.value);
   }, []);
 
   return (
