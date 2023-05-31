@@ -49,5 +49,3 @@ Run the eslint and check the issues.
 ### `yarn format`
 
 Code formatting by using the prettier.
-
-
