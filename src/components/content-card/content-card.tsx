@@ -14,8 +14,10 @@ const ContentCard: FC<IContentCard> = ({ content }) => {
 
   return (
     <GridItem>
-      <TopBanner imageUrl={image?.uri} />
-      <ContentBottom content={content} />
+      <article>
+        <TopBanner imageUrl={image?.uri} />
+        <ContentBottom content={content} />
+      </article>
     </GridItem>
   );
 };
