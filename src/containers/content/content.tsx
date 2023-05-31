@@ -24,10 +24,6 @@ const ContentWrapper: FC = () => {
 
   const { edges } = data?.contentCards || {};
 
-  console.log('data11===');
-  console.log(data);
-  console.log(loading);
-
   const handleSearchData = useCallback((value: string) => {
     setKeyword(value);
   }, []);
